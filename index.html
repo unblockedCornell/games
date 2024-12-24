@@ -1,84 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EveryGame</title>
-    <link rel="stylesheet" href="/main.css">
-    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EveryGame</title>
+  <link rel="stylesheet" href="/main.css">
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
 </head>
 <body>
+  <div class="ads-space"></div> <!-- Space for Google ads -->
+  <div class="content-wrapper">
     <nav>
-        <img src="images/logo.png" alt="logo">
-        <h1>EveryGame</h1>
+      <img src="images/logo.png" alt="logo">
+      <h1>EveryGame</h1>
     </nav>
 
     <!-- Hero Section -->
     <header class="hero">
-        <div class="hero-content">
-            <h1>Every. Online. Game.</h1>
-            <p>playable, accessible, here.</p>
-            <div class="search">
-                <input type="text" placeholder="Search..." oninput="">
-                <button><i class="fas fa-search"></i></button>
-            </div>
+      <div class="hero-content">
+        <div class="hero-left">
+          <h1>Every. Online. Game.</h1>
+          <p>playable, accessible, here.</p>
+          <div class="search">
+            <input type="text" id="search-bar" placeholder="Search...">
+            <button><i class="fas fa-search"></i></button>
+          </div>
+          <div class="suggestions" id="suggestions"></div>
         </div>
+        <div class="hero-right">
+          <h2>Popular Games</h2>
+          <div class="popular-games">
+            <!-- Vertical Cards for Popular Section -->
+            <div class="card" data-players="120K players">
+              <img src="images/bob-the-robber-2.png" alt="Bob The Robber 2">
+              <h3>Bob The Robber 2</h3>
+            </div>
+            <div class="card" data-players="200K players">
+              <img src="images/vex7.jpeg" alt="Vex 7">
+              <h3>Vex 7</h3>
+            </div>
+            <div class="card" data-players="300K players">
+              <img src="images/drive-mad.jpg" alt="Drive Mad">
+              <h3>Drive Mad</h3>
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
     <!-- Featured Section -->
     <div class="featured">
-        <h1>Popular:</h1>
-        <div class="column">
-          <a href="games/bob-the-robber-2/">
-            <img src="images/bob-the-robber-2.png">
-            <div class="play-button">
-                <i class="fa-solid fa-play"></i>
-            </div>
-          </a>
-          <a href="games/vex7/">
-            <img src="images/vex7.jpeg">
-            <div class="play-button">
-                <i class="fa-solid fa-play"></i>
-            </div>
-          </a>
-        </div>
-        <div class="row">
-          <a href="games/vex6">
-            <img src="images/vex6.jpeg">
-            <div class="play-button">
-                <i class="fa-solid fa-play"></i>
-            </div>
-          </a>
-        </div>
-        <div class="row">
-          <a href="games/drive-mad/">
-            <img src="images/drive-mad.jpg">
-            <div class="play-button">
-                <i class="fa-solid fa-play"></i>
-            </div>
-            </a>
-        </div>
-        <div class="column">
-          <a href="games/moto-x3m/">
-            <img src="images/moto-x3m.jpg">
-            <div class="play-button">
-                <i class="fa-solid fa-play"></i>
-            </div>
-          </a>
-          <a href="games/retro-bowl/">
-            <img src="images/retro-bowl.jpg">
-            <div class="play-button">
-                <i class="fa-solid fa-play"></i>
-            </div>
-          </a>
-        </div>
-        </div>
-    </div>
-
-    <div class="content">
-    <hr>
-    <div id="games">
+      <h1>Popular:</h1>
+      <div id="games">
         <a href="games/bob-the-robber-2/"><img src="images/bob-the-robber-2.png" alt="bob the robber 2"></a>
         <a href="games/vex7/"><img src="images/vex7.jpeg" alt="vex 7"></a>
         <a href="games/vex6/"><img src="images/vex6.jpeg" alt="vex 6"></a>
@@ -88,9 +62,9 @@
         <a href="games/drive-mad/"><img src="images/drive-mad.jpg" alt="drive mad"></a>
         <a href="games/slope/"><img src="images/slope.jpg" alt="slope"></a>
         <a href="games/motox3m2/"><img src="images/motox3m2.jpg" alt="moto x3m2"></a>
+      </div>
     </div>
-    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
-
-<script src="script.js"></script>
