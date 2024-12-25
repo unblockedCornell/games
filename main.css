@@ -36,7 +36,7 @@ nav h1 {
 .hero {
     display: flex;
     height: 100vh;
-    background: linear-gradient(rgb(67 220 255 / 0%), rgb(0 0 0 / 61%)), url(images/hero-bg.jpg) center / cover no-repeat;
+    background: linear-gradient(rgb(67 220 255), rgb(0 0 0 / 0%)), url(images/hero-bg.gif) center / cover no-repeat;
     color: #fff;
     align-items: center;
     justify-content: center;
