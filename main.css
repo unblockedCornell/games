@@ -124,7 +124,6 @@ nav h1 {
 .popular-games a {
     display: flex;
     align-items: center;
-    background-color: #222;
     border-radius: 1vw;
     padding: 1vw;
     text-decoration: none;
@@ -150,7 +149,11 @@ nav h1 {
 /* Featured Section */
 .featured {
     padding: 4vw 2vw;
-    background:linear-gradient(rgb(67 220 255 / 0%), rgb(0 0 0 / 61%)), url(images/brick.png);
+    background: 
+        linear-gradient(rgb(67 220 255 / 0%), rgb(0 0 0 / 61%)), 
+        url(images/brick.png) center / cover no-repeat;
+    background-position: top center; /* Align the top of brick.png */
+    background-size: cover; /* Ensure it covers the section */
 }
 
 .featured h1 {
