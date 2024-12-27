@@ -1,0 +1,35 @@
+[
+    {
+      "id": "drive-mad",
+      "title": "Drive Mad",
+      "category": "fun",
+      "instructions":"dummyInstructions",
+      "path": "games/drive-mad/",
+      "imgpath":"images/drive-mad.jpg",
+      "data_players":"14k players",
+      "related": ["bob-the-robber-2", "vex7", "moto-x3m"]
+    },
+    {
+      "id": "bob-the-robber-2",
+      "title": "Bob the Robber 2",
+      "category": "fun",
+      "instructions":"dummyInstructions",
+      "path": "games/bob-the-robber-2/",
+      "imgpath":"images/bob-the-robber-2.png",
+      "data_players":"14k players",
+      "related": ["drive-mad", "vex7", "slope"]
+    },
+
+
+    {
+        "id": "vex7",
+        "title": "Vex 7",
+        "category": "fun",
+        "instructions":"dummyInstructions",
+        "path": "games/vex7",
+        "imgpath":"images/vex7.jpeg",
+        "data_players":"14k players",
+        "related": ["drive-mad", "vex7", "slope"]
+    }
+  ]
+  
