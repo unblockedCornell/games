@@ -6,6 +6,7 @@
   <title id="game-title">Game</title>
   <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="games.css">
+  <link rel="stylesheet" href="category.css">
   <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
 </head>
 <body>
@@ -28,16 +29,16 @@
         <li class="dropdown">
           <a href="#">Skill</a>
           <ul class="dropdown-content">
-            <li><a href="category.html?category=Aiming">Aiming</a></li>
-            <li><a href="category.html?category=Platformer">Platformer</a></li>
-            <li><a href="category.html?category=Aiming">Timing</a></li>
-            <li><a href="category.html?category=Aiming">Hard Control</a></li>
-            <li><a href="category.html?category=Aiming">Adventure</a></li>
-            <li><a href="category.html?category=Aiming">Endless Runner</a></li>
-            <li><a href="category.html?category=Aiming">One Button</a></li>
-            <li><a href="category.html?category=Aiming">Rotating</a></li>
-            <li><a href="category.html?category=Aiming">Stacking</a></li>
-            <li><a href="category.html?category=Aiming">Time Management</a></li>
+            <li><a href="#">Aiming</a></li>
+            <li><a href="#">Platformer</a></li>
+            <li><a href="#">Timing</a></li>
+            <li><a href="#">Hard Control</a></li>
+            <li><a href="#">Adventure</a></li>
+            <li><a href="#">Endless Runner</a></li>
+            <li><a href="#">One Button</a></li>
+            <li><a href="#">Rotating</a></li>
+            <li><a href="#">Stacking</a></li>
+            <li><a href="#">Time Management</a></li>
           </ul>
         </li>
 
@@ -101,24 +102,12 @@
   </header>
 
   <main>
-    <div class="content-container">
-      <div class="iframe-section">
-        <h1 id="game-title-heading">TITLE OF GAME</h1>
-        <iframe id="game-frame" src="" frameborder="0"></iframe>
-        <p id="game-description">
-          CATEGORY: <span id="game-category"></span><br><br>
-          Instructions: <span id="game-instructions"></span> <br><br>
-          <span id="game-data_players"></span> currently playing!
-        </p>
-      </div>
-      <aside class="sidebar">
-        <h2>Related Games</h2>
-        <div id="related-games" class="related-games"></div>
-      </aside>
+    <h1 id="subcategory">SUBCATEGORY</h1>
+    <div id="games">
     </div>
   </main>
 
-  <script src="game.js"></script>
+  <script src="findCategoryGames.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

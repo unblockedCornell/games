@@ -75,5 +75,18 @@
       "imgpath": "images/vex6.jpeg",
       "data_players": "150K players",
       "related": ["vex7", "slope", "moto-x3m"]
+  },
+
+
+  {
+    "id": "1v1lol",
+    "title": "1v1.LOL",
+    "category": "Skill",
+    "subcategory": "Aiming",
+    "instructions": "Build Like in Fortnite!",
+    "path": "games/1v1lol/",
+    "imgpath": "games/1v1lol/splash.png",
+    "data_players": "150K players",
+    "related": ["vex7", "slope", "moto-x3m"]
   }
 ]
