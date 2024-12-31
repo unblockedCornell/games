@@ -88,5 +88,90 @@
     "imgpath": "games/1v1lol/splash.png",
     "data_players": "150K players",
     "related": ["vex7", "slope", "moto-x3m"]
+  },
+
+  {
+    "id": "AlienInvasion",
+    "title": "Alien Invasion",
+    "category": "Classic",
+    "subcategory": "8-bit",
+    "instructions": "A take on the classic atari game!",
+    "path": "games/AlienInvasion/",
+    "imgpath": "images/alieninvaders.png",
+    "data_players": "150K players",
+    "related": ["vex7", "slope", "moto-x3m"]
+  },
+
+  {
+    "id": "Asteroids",
+    "title": "Asteroids",
+    "category": "Classic",
+    "subcategory": "8-bit",
+    "instructions": "A shoot all the asteroids!",
+    "path": "games/Asteroids/",
+    "imgpath": "images/Asteroids.png",
+    "data_players": "150K players",
+    "related": ["vex7", "slope", "moto-x3m"]
+  },
+
+  {
+    "id": "Digger",
+    "title": "Digger",
+    "category": "Logic",
+    "subcategory": "sliding",
+    "instructions": "Use cursor keys, ESC to restart, DEL to jump to the next level.",
+    "path": "games/digger/",
+    "imgpath": "images/digger.png",
+    "data_players": "150K players",
+    "related": ["vex7", "slope", "moto-x3m"]
+  },
+
+  {
+    "id": "Snake",
+    "title": "snake",
+    "category": "Classic",
+    "subcategory": "Retro",
+    "instructions": "Use arrow keys to navigate the snake! eat the dots!",
+    "path": "games/snake/",
+    "imgpath": "images/snake.png",
+    "data_players": "150K players",
+    "related": ["vex7", "slope", "moto-x3m"]
+  },
+
+  {
+    "id": "Drakonas",
+    "title": "Drakonas",
+    "category": "Skill",
+    "subcategory": "Aiming",
+    "instructions": "Fly and upgrade your fighter jet! Use your mouse to control, and click to attack!",
+    "path": "games/Drakonas/",
+    "imgpath": "images/Drakonas.png",
+    "data_players": "150K players",
+    "related": ["vex7", "slope", "moto-x3m"]
+  },
+
+  {
+    "id": "Survivor",
+    "title": "Survivor",
+    "category": "Skill",
+    "subcategory": "Aiming",
+    "instructions": "JavaScript prototype based on the Commodore 64 version of Survivor from 1983. Move around iwth arrow keys, and shoot with ctrl!",
+    "path": "games/survivor/",
+    "imgpath": "images/survivor.png",
+    "data_players": "150K players",
+    "related": ["vex7", "slope", "moto-x3m"]
+  },
+
+  {
+    "id": "infinitemario",
+    "title": "Infinite Mario",
+    "category": "Skill",
+    "subcategory": "Platformer",
+    "instructions": "Mario bros! navigate with arrow keys and use s as jump!",
+    "path": "games/infinitemario/",
+    "subPath": "main.html",
+    "imgpath": "images/infinitemario.png",
+    "data_players": "150K players",
+    "related": ["vex7", "slope", "moto-x3m"]
   }
 ]
