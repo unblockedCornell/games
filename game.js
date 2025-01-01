@@ -18,7 +18,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Construct the iframe source with subPath if available
       const iframePath = game.subPath ? `${game.path}${game.subPath}` : `${game.path}index.html`;
-      document.getElementById("game-frame").src = iframePath;
+      const gameFrame = document.getElementById("game-frame");
+      gameFrame.src = iframePath;
+
+      // Set iframe background if the 'background' attribute exists
+      if (game.background) {
+        gameFrame.style.backgroundColor = game.background;
+        console.log("set background to " + game.background)
+      }
 
       document.getElementById("game-category").innerText = game.category || "Unknown";
       document.getElementById("game-instructions").innerText = game.instructions || "No instructions available.";

@@ -108,6 +108,7 @@
     "category": "Classic",
     "subcategory": "8-bit",
     "instructions": "A shoot all the asteroids!",
+    "background":"white",
     "path": "games/Asteroids/",
     "imgpath": "images/Asteroids.png",
     "data_players": "150K players",
@@ -171,6 +172,78 @@
     "path": "games/infinitemario/",
     "subPath": "main.html",
     "imgpath": "images/infinitemario.png",
+    "data_players": "150K players",
+    "related": ["vex7", "slope", "moto-x3m"]
+  },
+
+  {
+    "id": "coil",
+    "title": "Coil",
+    "category": "Skill",
+    "subcategory": "Aiming",
+    "instructions": "Coil is an addictive HTML5 game where you have to defeat your enemies by enclosing them in your trail. Most of the game is drawn on 2d canvas but if WebGL support is detected additional effects are added.",
+    "path": "games/coil/",
+    "imgpath": "images/coil.png",
+    "data_players": "150K players",
+    "related": ["vex7", "slope", "moto-x3m"]
+  },
+
+  {
+    "id": "emberwind",
+    "title": "Emberwind",
+    "category": "Skill",
+    "subcategory": "Adventure",
+    "instructions": "Move around with the arrow keys, and attack with the spacebar!",
+    "path": "games/emberwind/",
+    "imgpath": "images/emberwind.png",
+    "data_players": "150K players",
+    "related": ["vex7", "slope", "moto-x3m"]
+  },
+  {
+    "id": "marblesoccer",
+    "title": "Marble Soccer",
+    "category": "Skill",
+    "subcategory": "Hard_Control",
+    "instructions": "Use your arrowkeys to knock other balls into their holes.",
+    "path": "games/marblesoccer/",
+    "imgpath": "images/marblesoccer.png",
+    "data_players": "150K players",
+    "related": ["vex7", "slope", "moto-x3m"]
+  },
+  {
+    "id": "polybranch",
+    "title": "Polybranch",
+    "category": "Skill",
+    "subcategory": "Endless_Runner",
+    "instructions": "PolyBranch is a minimalist 3D game. Avoid the branches protruding from the walls as you fly through the tunnel. Dodging branches may seem easy at first, but how long can you hold up as you approach terminal velocity? Dive in, stay focused, and enjoy the ride!",
+    "path": "games/polybranch/",
+    "subPath":"polybranchweb/index.html",
+    "imgpath": "images/polybranch.png",
+    "data_players": "150K players",
+    "related": ["vex7", "slope", "moto-x3m"]
+  },
+
+  {
+    "id": "skifree",
+    "title": "Ski Free",
+    "category": "Skill",
+    "subcategory": "Endless_Runner",
+    "instructions": "JavaScript port of the popular 1991 PC game SkiFree by Chris Pirih.",
+    "path": "games/skifree/",
+    "background":"white",
+    "imgpath": "images/skifree.png",
+    "data_players": "150K players",
+    "related": ["vex7", "slope", "moto-x3m"]
+  },
+
+  {
+    "id": "starshipsorades",
+    "title": "Starship Sorades",
+    "category": "Skill",
+    "subcategory": "Endless_Runner",
+    "instructions": "A scrolling shooter in the vein of Raptor: 'Call of the Shadows' and 'Warning Forever'. Are you able to survive 13 waves? Press X to fire, F for fullscreen, P for pause, M to switch to the original ship model from our full-featured 'Starship Sorades' game (yes, I had 3 KB left and wasted them for an easter egg). Multiple control schemes provided, e.g. cursor keys, WASD and numpad.",
+    "path": "games/starshipsorades/",
+    "imgpath": "images/starshipsorades.png",
     "data_players": "150K players",
     "related": ["vex7", "slope", "moto-x3m"]
   }
