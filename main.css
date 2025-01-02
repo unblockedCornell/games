@@ -1,5 +1,6 @@
 body {
     background-color: #1b1b1b;
+    display: flex;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
@@ -51,6 +52,7 @@ a.mainlink {
     display: flex;
     width: 100%;
     justify-content: space-between;
+    margin-top: 30vh;
 }
 
 .hero-left {
@@ -58,13 +60,13 @@ a.mainlink {
 }
 
 .hero-left h1 {
-    font-size: 4vw;
+    font-size: 51px;
     font-weight: 800;
     margin-bottom: 1vw;
 }
 
 .hero-left p {
-    font-size: 2vw;
+    font-size: 25px;
     font-weight: 600;
     margin-bottom: 2vw;
 }
@@ -73,23 +75,26 @@ a.mainlink {
     display: flex;
     justify-content: flex-start;
     margin-bottom: 1vw;
+    max-width: 50%; /* Ensure the search bar does not stretch beyond its container */
 }
 
 .search input {
     background-color: #222;
     border: none;
-    border-radius: 1vw 0 0 1vw;
+    border-radius: 10px 0 0 10px;
     color: #fff;
-    font-size: 1.5vw;
-    padding: 0.8vw 1.5vw;
+    font-size: 15px;
+    padding: 10.2px 19.29px;
+    flex: 1; /* Allow the input to take up remaining space */
+    max-width: 300px;
 }
 
 .search button {
     background-color: #fff;
     border: none;
-    border-radius: 0 1vw 1vw 0;
-    font-size: 1.5vw;
-    padding: 0.8vw 1vw;
+    border-radius: 0 10px 10px 0;
+    font-size: 15px;
+    padding: 10.2px 12.8px;
     cursor: pointer;
 }
 
