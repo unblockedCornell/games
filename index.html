@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>EveryGame</title>
   <link rel="stylesheet" href="main.css">
+  <link rel = "stylesheet" href="modal.css">
   
   <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
 </head>
@@ -143,5 +144,15 @@
   </div>
   <script src="script.js"></script>
   <script src="fillAllGames.js"></script>
+  <script src="loginpage.js"></script>
+  <dialog class = "modal" id = "modal">
+    <div class = modal-div>It's up to you, but signing up will unlock personalized features, save your progress, and keep you updated on new games. If you already have an account, just sign in!</div>
+   
+    <button class = "signup-button"
+    onclick="window.location.href = 'http://localhost/simple/login.html'">Sign up!</button>
+    <button class = "login-button"
+    onclick="window.location.href = 'http://localhost/simple/signup.html'">Login!</button> 
+    <button class = "button close-button">close</button>
+  </dialog>
 </body>
 </html>
